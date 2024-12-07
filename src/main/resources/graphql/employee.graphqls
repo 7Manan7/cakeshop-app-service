@@ -1,0 +1,16 @@
+type Query {
+    customers: [Customer!]!
+    customerById(id: Int!): Customer
+    employees: [Employee!]!
+    employeeById(id: Int!): Employee
+}
+
+type Employee {
+    employeeId: Int!
+    name: String!
+    position: String
+    salary: Float
+    dateJoined: String
+    phone: String
+    email: String
+}
