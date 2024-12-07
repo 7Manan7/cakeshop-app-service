@@ -34,4 +34,5 @@ public class Customer {
 
 	@Column(name = "created_at", columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP", insertable = false, updatable = false)
 	private LocalDateTime createdAt;
+	
 }
